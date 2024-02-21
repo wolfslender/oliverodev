@@ -17,7 +17,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('../../images/slider.jpg'); /* Ruta de la imagen de fondo */
+    
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -49,4 +49,25 @@
     font-size: 1.5rem;
     color: #555;
   }
+
+/* ... tus estilos anteriores ... */
+
+.two-column-container {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .two-column-container .column {
+    flex: 1;
+  }
+  
+  .two-column-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* ... tus estilos anteriores ... */
   

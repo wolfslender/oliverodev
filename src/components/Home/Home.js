@@ -14,8 +14,17 @@ const Home = () => {
       <div className="background-container"></div>
       <div className="overlay"></div>
       <div className="content">
-        <h1>Bienvenidos a Mi Portfolio</h1>
-        <p>Soy un apasionado desarrollador web con más de 6 años de experiencia, especializado en crear soluciones web innovadoras y atractivas.</p>
+        <div className="two-column-container">
+          <div className="column">
+          <img src="/your-image.jpg" alt="Tu imagen" />
+          </div>
+          <div className="column">
+            <div>
+              <h1>Bienvenidos a Mi Portfolio</h1>
+              <p>Soy un apasionado desarrollador web con más de 6 años de experiencia, especializado en crear soluciones web innovadoras y atractivas.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </animated.div>
   );
