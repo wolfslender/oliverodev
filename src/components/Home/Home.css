@@ -1,0 +1,48 @@
+/* Home.css */
+/* Home.css */
+.home {
+    position: relative;
+    height: 100vh;
+    overflow: hidden; /* Evita el desbordamiento del contenido */
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+ 
+
+.home {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .slider {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .slider img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .content {
+    margin-top: 2rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  

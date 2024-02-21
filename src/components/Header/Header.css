@@ -1,15 +1,16 @@
-/* Header.css */
+/* Home.css */
 header {
-    background-color: #333;
-    color: white;
+    background-color: transparent;
+    color: black;
     padding: 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
   
-  .logo {
-    font-size: 1.5rem;
+  .logo img {
+    width: 150px; /* Ajusta el tamaño según tu preferencia */
+    height: auto;
   }
   
   nav ul {
@@ -19,12 +20,13 @@ header {
   
   nav a {
     text-decoration: none;
-    color: white;
+    color: black;
     margin: 0 1rem;
     transition: color 0.3s ease;
+    font-weight: bold;
   }
   
   nav a:hover {
-    color: #61dafb;
+    color: #76b6ea;
   }
   

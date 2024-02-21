@@ -1,11 +1,14 @@
 // Header.js
 import React from 'react';
 import './Header.css';
+import logo from '../../images/logo-oliverodev.png'; // Reemplaza 'logo.png' con el nombre de tu archivo de logo
 
 const Header = () => {
   return (
     <header>
-      <h1>OliveroDev</h1>
+      <div className="logo">
+        <img src={logo} alt="Logo" />
+      </div>
       <nav>
         <ul>
           <li><a href="#home">Home</a></li>
