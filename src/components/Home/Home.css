@@ -11,6 +11,13 @@
     padding: 2rem;
   }
   
+  .texto-home {
+  
+    font-size: 18px;
+    color:white
+    
+  }
+
   .background-container {
     position: absolute;
     top: 0;
