@@ -17,7 +17,7 @@ const Home = () => {
       <div className="content">
         <div className="two-column-container">
           <div className="column">
-          <img src={webDeveloperImg} />
+          <img className='image-home' src={webDeveloperImg} />
           </div>
           <div className="column">
             <div>
