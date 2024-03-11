@@ -4,6 +4,8 @@ import { useSpring, animated } from 'react-spring';
 import './Home.css';
 import webDeveloperImg from '../../images/web-developer.jpg';
 
+
+
 const Home = () => {
   const containerSpring = useSpring({
     opacity: 1,
